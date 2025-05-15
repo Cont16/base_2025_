@@ -1,6 +1,6 @@
 {
-    "name": "mindef/demo",
-    "description": "Proyecto MVC demo",
+    "name": "app/base_contreras",
+    "description": "App para iniciar el modelo mvc para el curso de ingenieria de software",
     "type": "project",
     "config": {
         "platform-check": false
