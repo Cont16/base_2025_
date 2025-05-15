@@ -7,15 +7,15 @@
                     <p class="mb-0 fs-6">¡Bienvenido a la aplicación para el registro, modificación y eliminación de usuario!</p>
                 </div>
                 <div class="card-body p-5">
-                    <form action="guardar_usuario.php" method="POST" autocomplete="off">
+                    <form id="FormUsuarios">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="nombres" class="form-label">Nombres</label>
-                                <input type="text" class="form-control rounded-pill shadow-sm" id="usuario_nombres" name="usuario_nombres" required>
+                                <input type="text" class="form-control rounded-pill shadow-sm" id="usuario_nombres" name="usuario_nombres">
                             </div>
                             <div class="col-md-6">
                                 <label for="apellidos" class="form-label">Apellidos</label>
-                                <input type="text" class="form-control rounded-pill shadow-sm" id="usuario_apellidos" name="usuario_apellidos" required>
+                                <input type="text" class="form-control rounded-pill shadow-sm" id="usuario_apellidos" name="usuario_apellidos">
                             </div>
                             <div class="col-md-6">
                                 <label for="nit" class="form-label">NIT</label>
@@ -27,7 +27,7 @@
                             </div>
                             <div class="col-md-12">
                                 <label for="correo" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control rounded-pill shadow-sm" id="usuario_correo" name="usuario_correo" required>
+                                <input type="email" class="form-control rounded-pill shadow-sm" id="usuario_correo" name="usuario_correo">
                             </div>
                             <div class="col-md-6">
                                 <label for="estado" class="form-label">Estado</label>
